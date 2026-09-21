@@ -9,6 +9,30 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h2>
+                <asp:Label ID="Logo" runat="server" Text="Foodora"></asp:Label>
+            </h2>
+            <br />
+            <div>
+                 <asp:Label ID="Label1" runat="server" Text="Category"></asp:Label>
+
+                 <br />
+
+                <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>Burger</asp:ListItem>
+                    <asp:ListItem>Pizza</asp:ListItem>
+                </asp:DropDownList>
+               <%-- <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick">
+                    
+                    <Items>
+                        <asp:MenuItem Text="Burger" Value="Burger"></asp:MenuItem>
+                        <asp:MenuItem Text="Pizza " Value="Pizza"></asp:MenuItem>
+                       
+                    </Items>
+
+                </asp:Menu>--%>
+               
+            </div>
         </div>
     </form>
 </body>
