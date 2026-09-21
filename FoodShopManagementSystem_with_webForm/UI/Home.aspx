@@ -32,7 +32,26 @@
 
                 </asp:Menu>--%>
                
+               
+               
+               
             </div>
+
+            <%--food list--%>
+            <div class="" style="margin-top: 100px">
+                <asp:Label ID="Label4" runat="server" Text="Food List"></asp:Label>
+                <div>
+
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/images.jpg" />
+
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Food name"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label3" runat="server" Text="Price"></asp:Label>
+                </div>
+            </div>
+
+
         </div>
     </form>
 </body>
