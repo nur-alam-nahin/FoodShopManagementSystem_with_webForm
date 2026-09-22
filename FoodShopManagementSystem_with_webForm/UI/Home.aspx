@@ -41,14 +41,14 @@
             <div class="" style="margin-top: 100px">
                 <asp:Label  ID="Label4" runat="server"  Text="Food List"></asp:Label>
                 <div style="margin-top: 30px">
-                    <div style="border:solid 1px; width:500px; display: flex">
+                    <div style="border-style: solid; border-color: inherit; border-width: 1px; width:202px; height: 260px; padding:10px">
 
                          <asp:Image ID="imgLogo" runat="server" ImageUrl="~/image/images.jpg" Width="200px" />
                         
                         <div style="width: 116px">
-                             <asp:Label ID="Label2" runat="server" Text="Food name"></asp:Label>
+                             <asp:Label ID="Label2" runat="server" Text="Burger"></asp:Label>
                              <br />
-                             <asp:Label ID="Label3" runat="server" Text="Price"></asp:Label>
+                             <asp:Label ID="Label3" runat="server" Text="Price = 250"></asp:Label>
 
                         </div>
                         
